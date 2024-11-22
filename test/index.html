@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <!--1. Create a simple login form with fields for username and password. Add a submit button. Use HTML5 form validation to ensure both fields are required.--> 
+   <form>
+    <h1>1.Login Form</h1>
+    <label for="username">Username:</label>
+    <input type="text" id="username" placeholder="Enter Username" required>
+    <br>
+    <br>
+    <label for="password">Password:</label>
+    <input type="text" id="password" placeholder="Enter Password" required>
+    <br>
+    <br>
+    <button>Submit</button>
+   </form>
+   <hr>
+   <!--2. Build a form with input types for text, email, password, and a date picker. Ensure that the email field has proper validation.-->
+   <h1>2.SignUp Page</h1>
+   <form action="">
+       <label for="username">Username:</label>
+       <input type="text" id="username">
+       <br>
+       <br>
+       <label for="email">Email:</label>
+       <input type="email" id="email">
+       <br>
+       <br>
+       <label for="password">Password:</label>
+       <input type="password" id="password">
+       <br>
+       <br>
+       <label for="date">Date:</label>
+       <input type="date" id="date">
+       <br>
+       <br>
+       <hr>
+   </form>
+   
+   <!--3. Use the <table> element to create a table with 3 rows and 4 columns. Include a header row and make the first column bold using inline HTML attributes.-->
+    <h1>3.Table</h1>
+    <table border="1">
+        <tr>
+            <th>S.no</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Department</th>
+        </tr>
+        <tr>
+            <td><b>1</b></td>
+            <td>sai</td>
+            <td>21</td>
+            <td>CSE</td>
+        </tr>
+        <tr>
+            <td><b>2</b></td>
+            <td>sathvika</td>
+            <td>21</td>
+            <td>IT</td>
+        </tr>
+        <tr>
+            <td><b>3</b></td>
+            <td>mukesh</td>
+            <td>22</td> 
+            <td>IT</td>       
+        </tr>
+    </table>
+    <hr>
+    <!--4. Add a video to a webpage using the <video> element. Set it to autoplay, loop.-->
+     <h1>4.Video</h1>  
+     <video src="video.mp4" width="200" height="200" controls autoplay loop></video> 
+     <hr>
+     <!--6. Create a dropdown list of three items (e.g., colors or countries) and add an option that defaults to "Select One" using the <select> tag.-->
+            <h1>6.Country Dropdown</h1>
+            <label for="countries">Choose a country:</label>
+            <select id="countries" name="countries">
+                <option value="">Select One</option>
+                <option value="India">India</option>
+                <option value="United States">United States</option>
+                <option value="Russia">Russia</option>
+            </select>
+            <hr>
+     <!--7. Use an ordered list <ol> to create a table of contents for a webpage. Link each list item to a corresponding section using <a> tags and anchor points.-->
+        <h1>7.Table of Contents</h1>
+    <ol>
+        <li><a href="login.html">Login Form</a></li>
+        <li><a href="signup.html">Sign Up Form</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+    </ol>    
+</body>
+</html>
